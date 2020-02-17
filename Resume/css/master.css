@@ -1,28 +1,80 @@
-body{
-  background-color: black;
-}
+  body{
+    background-color: black;
+  }
 h1{
-text-align: center;
-background-color: black;
-color: #FFE4E1;
-}
-h2{
   text-align: center;
   background-color: black;
   color: #FFE4E1;
+  font-family: 'Roboto Condensed', sans-serif;
+  }
+  h2{
+    text-align: center;
+    background-color: black;
+    color: #FFE4E1;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  p{
+    text-align: left;
+    background-color: black;
+    color: #FFE4E1;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .image{
+    background-position: center;
+  }
+  .main{
+    text-align: center;
+    background-color: black;
+    color: #FFE4E1;
+    font-family: 'Oswald', sans-serif;
+  }
+  .main:first-letter {
+  color: #lightblue;
+  font-size:200%;
 }
-p{
+  .list{
   text-align: left;
   background-color: black;
   color: #FFE4E1;
+  font-family: 'Oswald', sans-serif;
+  }
+  h3{
+    text-align: center;
+    background-color: black;
+    color: #FFE4E1;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .table{
+    text-align: center;
+    background-color: black;
+    color: #FFE4E1;
+    font-family: 'Oswald', sans-serif;
+  }
+  .table:hover {
+    background-color: yellow;
+    color: black;
+  }
+  .sandbox:hover {
+    background-color: green;
+  color: white;
 }
-.main{
-  text-align: center;
-  background-color: black;
-  color: #FFE4E1;
+  .facebook:hover {
+    background-color: green;
+  color: white;
 }
-h3{
-  text-align: center;
-  background-color: black;
-  color: #FFE4E1;
+a:link {
+  text-decoration: none;
 }
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+  <body>
