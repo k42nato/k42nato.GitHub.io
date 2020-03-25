@@ -1,7 +1,3 @@
-style{
-  border: 1px solid white;
-  border-collapse: collapse;
-}
 body{
   background-color: black;
   font-family: 'Roboto Condensed', sans-serif;
@@ -76,6 +72,10 @@ h3{
   background-color: black;
   color: #FFE4E1;
   font-family: 'Oswald', sans-serif;
+}
+.table{
+  border: 1px solid white;
+  border-collapse: collapse;
 }
 .table:hover {
   background-color: yellow;
