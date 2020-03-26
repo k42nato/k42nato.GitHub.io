@@ -17,18 +17,17 @@ h2{
   font-family: 'Roboto Condensed', sans-serif;
 }
 .contact{
-  border: 5px solid powderblue;
-padding: 10px;
-height: auto;
-width: auto;
+border: 2px solid powderblue;
+padding: 3px;
 }
 h3{
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   background-color: black;
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
 .image{
 display: block;
 align-items: center;
