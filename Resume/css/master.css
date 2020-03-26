@@ -16,6 +16,12 @@ h2{
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
 }
+.contact{
+  font-size: 32px;
+  text-align: center;
+  color: #FFE4E1;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 h3{
   font-size: 30px;
   text-align: center;
@@ -24,7 +30,7 @@ h3{
   font-family: 'Roboto Condensed', sans-serif;
 }
 p{
-  text-align: center;
+  text-align: left;
   background-color: black;
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
