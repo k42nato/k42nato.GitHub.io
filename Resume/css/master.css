@@ -18,7 +18,8 @@ h2{
 }
 .contact{
   border-style: double;
-  border-color: white;
+  border-color: white;}
+  .contact{
   color: #FFE4E1;
   text-align: justify;
   font-family: 'Roboto Condensed', sans-serif;
