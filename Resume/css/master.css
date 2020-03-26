@@ -16,7 +16,8 @@ h2{
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
 }
-.contact{
+.contact.double {
+  border-style: double;
   border: 10px solid white;
 padding: 10px;
 width: 300px;
