@@ -16,15 +16,15 @@ h2{
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
 }
-.contact.{
+.contact{
   border-style: double;
   border-color: white;
-padding: 10px;
-width: 300px;
-height: 300px;
-text-align: justify;
   color: #FFE4E1;
+  text-align: justify;
   font-family: 'Roboto Condensed', sans-serif;
+  padding: 10px;
+  width: 300px;
+  height: 300px;
 }
 h3{
   font-size: 30px;
