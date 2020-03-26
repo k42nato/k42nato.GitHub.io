@@ -1,7 +1,7 @@
 body{
   background-color: black;
   font-family: 'Roboto Condensed', sans-serif;
-  background-image: url(images/IMG_0054.JPG);
+  background-image: url(IMG_0054.JPG);
  background-repeat: no-repeat;
  background-position: right top;
  background-attachment: fixed;
@@ -80,9 +80,17 @@ h3{
   background-color: yellow;
   color: black;
 }
+.sandbox{
+  border: 1px solid white;
+  border-collapse: collapse;
+}
 .sandbox:hover {
   background-color: green;
 color: white;
+}
+.facebook{
+  border: 1px solid white;
+  border-collapse: collapse;
 }
 .facebook:hover {
   background-color: green;
