@@ -17,7 +17,8 @@ h2{
   font-family: 'Roboto Condensed', sans-serif;
 }
 .contact{
-  border: 1px solid grey;
+  border: 1px solid powderblue;
+  padding: 30px;
   color: #FFE4E1;
   text-align: justify;
   font-family: 'Roboto Condensed', sans-serif;
