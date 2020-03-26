@@ -18,9 +18,9 @@ h2{
 }
 .contact{
   border: 5px solid powderblue;
-  padding: 10px;
-  height: auto;
-  width: auto;
+padding: 10px;
+height: auto;
+width: auto;
 }
 h3{
   font-size: 30px;
@@ -28,12 +28,6 @@ h3{
   background-color: black;
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
-}
-p{
-  border: 5px solid powderblue;
-  padding: 10px;
-  height: auto;
-  width: auto;
 }
 .image{
 display: block;
