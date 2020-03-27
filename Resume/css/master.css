@@ -22,7 +22,7 @@ body{
   grid-template-rows: auto auto auto auto auto auto;
   justify-content: center;
   grid-template-areas:
-  "header" "header" "header" "header" "header";
+  "header header header header header";
   "." "header2" "header2" "header2" "."
   "main" "main" "." "main" "main"l
   "." "main2" "main2" "main2" "."
