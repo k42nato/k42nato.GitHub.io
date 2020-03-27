@@ -1,7 +1,7 @@
 .grid-container{
   display: grid;
-  grid-template-columns: [first] 500px [second] 600px [third] 700px [fourth] 600px [fifth] 500px;
-  grid-template-rows: 300px 300px 500px 500px 300px 300px;
+  grid-template-columns: [first] auto [second] auto [third] auto [fourth] auto [fifth] auto;
+  grid-template-rows: auto auto auto auto auto auto;
   justify-content: center;
   grid-template-areas:
   "header" "header" "header" "header" "header"
@@ -24,7 +24,7 @@ background-color: black;
 color: #FFE4E1;
 font-family: 'Roboto Condensed', sans-serif;
 grid-column-start: 1;
-grid-column-end: 5;
+grid-column-end: span 5;
 grid-row-start: 1;
 grid-row-end: 1;
 }
@@ -35,7 +35,10 @@ h2{
   background-color: black;
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
-  grid-area: 2 / 2 / span 3 / span 1;
+  grid-column-start: 2;
+  grid-column-end: span 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
 }
 .contact{
 border: 2px solid powderblue;
