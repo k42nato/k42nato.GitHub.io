@@ -5,13 +5,16 @@ body{
     .column {
       width: 50%;
     }
+  }
       @media screen and (min-width: 400px) {
   body {
     background-color: lightblue;
   }
+}
 @media screen and (min-width: 800px) {
   body {
     background-color: lavender;
+}
 }
 .grid-container{
   display: grid;
