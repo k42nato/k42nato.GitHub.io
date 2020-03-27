@@ -30,8 +30,8 @@ padding: 1px;
 }
 .image{
 display: block;
-margin-left: auto;
-margin-right: auto;
+margin-left: 30%;
+margin-right: 30%;
 width: 100%;
 }
 .main{
@@ -47,7 +47,9 @@ color: blue;
 font-size:200%;
 }
 .list{
-text-align: left;
+text-align: center;
+border: 2px solid powderblue;
+padding: 1px;
 background-color: black;
 color: #FFE4E1;
 font-family: 'Oswald', sans-serif;
