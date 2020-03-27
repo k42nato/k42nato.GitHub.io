@@ -1,7 +1,7 @@
 .grid-container{
   display: grid;
-  grid-template-columns: [first] auto [second] auto [third] auto [fourth] auto [fifth] auto;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: [first] 50px [second] 70px [third] auto [fourth] 70px [fifth] 50px;
+  grid-template-rows: 30px 30px 50px 50px 30px 30px;
   justify-content: space-around;
   align-content: space-around;
   grid-template-areas:
