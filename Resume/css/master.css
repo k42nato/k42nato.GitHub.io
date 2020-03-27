@@ -37,6 +37,8 @@ width: 100%;
   background-color: black;
   color: #FFE4E1;
   font-family: 'Oswald', sans-serif;
+  margin: 5% auto;
+  width: 80%
 }
 .main:first-letter {
 color: blue;
