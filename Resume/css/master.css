@@ -4,6 +4,10 @@
   grid-template-rows: auto auto auto;
   justify-content: space-around;
   align-content: space-around;
+  grid-template-areas:
+  "header" "header" "header"
+  "." "main" "main" "."
+  "footer" "footer" "footer"
 }
 body{
   background-color: black;
