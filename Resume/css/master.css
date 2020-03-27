@@ -47,13 +47,14 @@ padding: 1px;
   box-sizing: border-box;
     margin-right: 150px;
     margin-left: 100px;
-    grid-area: 3 / 1 / span 2 / span 1;
+    grid-area: 3 / 1 / span 1 / span 2;
 }
 .headshot{
   display: block;
   margin-left: 30%;
   margin-right: 30%;
   width: 100%;
+  grid-area: 3 / 4 / span 1 / span / 2;
 }
 
 .main{
@@ -62,7 +63,8 @@ padding: 1px;
   color: #FFE4E1;
   font-family: 'Oswald', sans-serif;
   margin: 5% auto;
-  width: 80%
+  width: 80%;
+  grid-area: 4 / 2 / span 1 / span / 3;
 }
 .main:first-letter {
 color: blue;
