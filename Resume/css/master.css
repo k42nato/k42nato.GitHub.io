@@ -1,7 +1,7 @@
 .grid-container{
   display: grid;
   grid-template-columns: [first] auto [second] auto [third] auto [fourth] auto [fifth] auto;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
   justify-content: space-around;
   align-content: space-around;
   grid-template-areas:
@@ -9,6 +9,7 @@
   "." "6" "7" "8" "."
   "9" "10" "11" "12" "13"
   "14" "15" "16" "17" "18"
+  "19" "20" "21" "22" "23"
 }
 body{
   background-color: black;
@@ -20,7 +21,7 @@ text-align: center;
 background-color: black;
 color: #FFE4E1;
 font-family: 'Roboto Condensed', sans-serif;
-grid-column: 1 / span 5;
+grid-area: : 1 / 1 / 1 / 5;
 }
 h2{
   font-size: 35px;
@@ -29,7 +30,7 @@ h2{
   background-color: black;
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
-  grid-column: 6 / span 8;
+  grid-area: 2 / 2 / 1 / 3;
 }
 .contact{
 border: 2px solid powderblue;
@@ -41,10 +42,9 @@ padding: 1px;
   font-family: 'Roboto Condensed', sans-serif;
   font-style: italic;
   box-sizing: border-box;
-  margin-top: 100px;
-    margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 100px;
+    grid-area: 3 / 3 / 1 / 2
 }
 .drumset{
 display: block;
