@@ -28,6 +28,7 @@ h2{
   background-color: black;
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
+  grid-column: 2 / 4;
 }
 .contact{
 border: 2px solid powderblue;
