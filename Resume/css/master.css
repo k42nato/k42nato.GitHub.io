@@ -25,6 +25,7 @@ padding: 1px;
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
   box-sizing: border-box;
+  margin-right: auto;
 }
 .image{
 display: block;
