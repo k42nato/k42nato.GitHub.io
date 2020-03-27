@@ -35,7 +35,7 @@ h2{
 .contact{
 border: 2px solid powderblue;
 padding: 1px;
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
   background-color: black;
   color: #FFE4E1;
@@ -44,13 +44,14 @@ padding: 1px;
   box-sizing: border-box;
     margin-right: 150px;
     margin-left: 100px;
-    grid-area: 3 / 3 / 1 / 2
+    grid-area: 3 / 3 / 1 / 2;
 }
 .drumset{
 display: block;
 margin-left: 30%;
 margin-right: 30%;
 width: 100%;
+grid-area: 3 / 3 / 1 / 3;
 }
 .main{
   text-align: center;
