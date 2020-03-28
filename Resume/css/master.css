@@ -18,16 +18,16 @@ body{
 }
 .grid-container{
   display: grid;
-  grid-template-columns: repeat (12, minmax(0,1fr));
+  grid-template-columns: repeat (8, minmax(0,1fr));
   grid-template-rows: repeat (6, minmax(0,1fr));
   justify-content: center;
   grid-template-areas:
-  ". . header header header header header header header header . ."
-  "leftside leftside leftside header2 header2 header2 header2 header2 header2 header2 . ."
-  "leftside leftside leftside main main main main main main main main main"
-  "leftside leftside main main main main main main main main main ."
-  "main2 main2 main2 main2 main2 main2 main2 rightside rightside rightside rightside rightside"
-  ". footer footer footer footer footer footer footer footer footer footer .";
+  ". . header header header header . ."
+  "leftside leftside header2 header2 header2 header2 . ."
+  "leftside leftside main main main main main ."
+  "leftside leftside main main main main main ."
+  ". . main2 main2 main2 main2 rightside rightside"
+  ". footer footer footer footer footer footer .";
   grid-column-gap: 10px;
   grid-row-gap: 15px;
 }
