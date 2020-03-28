@@ -18,8 +18,12 @@ body{
 }
 .grid-container{
   display: grid;
-  grid-template-columns: repeat (8, minmax(0,1fr));
-  grid-template-rows: repeat (6, minmax(0,1fr));
+  grid-template-columns:
+  /*repeat (8, minmax(0,1fr));*/
+  auto auto auto auto auto auto auto auto;
+  grid-template-rows:
+  /*repeat (6, minmax(0,1fr));*/
+  auto auto auto auto auto auto;
   justify-content: center;
   grid-template-areas:
   ". . header header header header . ."
@@ -91,9 +95,12 @@ padding: 1px;
   font-family: 'Oswald', sans-serif;
   margin: 5% auto;
   width: 80%;
-  grid-area: "main"
+  grid-column-start: 3;
+    grid-column-end: ;
+    grid-row-start: 3;
+    grid-row-end: 5;
 }
-.main:first-letter {
+.bio:first-letter {
 color: blue;
 font-size:200%;
 }
