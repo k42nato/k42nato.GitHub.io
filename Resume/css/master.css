@@ -39,8 +39,8 @@ background-color: black;
 color: #FFE4E1;
 font-family: 'Roboto Condensed', sans-serif;
 grid-area: "header";
-grid-column-start: 2;
-grid-column-end:  5;
+grid-column-start: 3;
+grid-column-end:  10;
 grid-row-start: 1;
 grid-row-end: 1;
 }
