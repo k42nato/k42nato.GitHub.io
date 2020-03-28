@@ -18,8 +18,8 @@ body{
 }
 .grid-container{
   display: grid;
-  grid-template-columns: [first] auto [second] auto [third] auto [fourth] auto [fifth] auto;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-columns: repeat (5, minmax(0,1fr));
+  /*grid-template-rows: auto auto auto auto auto auto;*/
   justify-content: center;
   grid-template-areas:
   "header header header header header"
@@ -80,7 +80,7 @@ padding: 1px;
   margin-left: 30%;
   margin-right: 30%;
   width: 100%;
-  grid-area: "main"
+  grid-area: "main";
   padding-top: 50px;
 }
 
