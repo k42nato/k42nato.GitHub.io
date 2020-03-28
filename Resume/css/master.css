@@ -108,8 +108,8 @@ h4{
   background-color: black;
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
-  grid-column-start: 7;
-    grid-column-end: 9;
+  grid-column-start: 6;
+    grid-column-end: 8;
     grid-row-start: 2;
     grid-row-end: 4;
 }
@@ -126,8 +126,8 @@ margin-top: 100px;
   margin-right: 150px;
   margin-left: 100px;
   /*grid-area: "main3"*/
-  grid-column-start: 7;
-    grid-column-end: 9;
+  grid-column-start: 6;
+    grid-column-end: 8;
     grid-row-start: 2;
     grid-row-end: 4;
 }
@@ -162,8 +162,8 @@ grid-column-start: 7;
   /*grid-area: "footer"*/
   grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
 }
 .facebook{
   border: 1px solid white;
@@ -172,8 +172,8 @@ grid-column-start: 7;
   /*grid-area: "footer"*/
   grid-column-start: 4;
     grid-column-end: 6;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
 }
 .table:hover {
   background-color: yellow;
