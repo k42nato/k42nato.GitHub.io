@@ -21,7 +21,7 @@ body{
   grid-template-columns:
   repeat(12, minmax(0,1fr));
   /*repeat(auto-fill, minmax(200px, 1fr));*/
-  grid-template-rows: auto auto auto auto auto auto auto auto 
+  grid-template-rows: auto auto auto auto auto auto auto auto
   /*repeat(8, minmax(0,1fr));*/
   justify-content: space-around;
   align-items: stretch;
@@ -64,8 +64,8 @@ h2{
 .contact{
   grid-column-start: 4;
     grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
     border: 2px solid powderblue;
 padding: 1px;
   font-size: 12px;
