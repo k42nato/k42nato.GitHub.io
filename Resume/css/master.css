@@ -83,6 +83,7 @@ padding: 1px;
     grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 6;
+    float: left;
     display: block;
   margin-left: 30%;
   margin-right: 30%;
@@ -120,7 +121,8 @@ h4{
     grid-column-end: 12;
     grid-row-start: 3;
     grid-row-end: 4;
-    text-align: left;
+    float: right;
+    text-align: center;
 border: 2px solid powderblue;
 padding: 1px;
 background-color: black;
