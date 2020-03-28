@@ -22,7 +22,7 @@ body{
   repeat(8, minmax(0,1fr));
   /*repeat(auto-fill, minmax(200px, 1fr));*/
   grid-template-rows:
-  repeat(6, minmax(300px,1fr));
+  repeat(6, minmax(100px,1fr));
   justify-content: center;
   grid-template-areas:
   ". . header header header header . ."
