@@ -67,19 +67,21 @@ padding: 1px;
   box-sizing: border-box;
     margin-right: 150px;
     margin-left: 100px;
-    grid-area: "leftside";
-    /*grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 3*/
+  grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
 .headshot{
   display: block;
   margin-left: 30%;
   margin-right: 30%;
   width: 100%;
-  grid-area: "leftside2";
   padding-top: 50px;
+  grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
 }
 
 .bio{
