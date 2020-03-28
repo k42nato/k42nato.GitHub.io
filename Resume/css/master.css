@@ -150,7 +150,8 @@ width: 100%;
     grid-row-start: 7;
     grid-row-end: 8;
     border: 1px solid white;
-  border-collapse: collapse;text-align: center;
+  /*border-collapse: collapse;*/
+  text-align: center;
   padding: 2px;
   background-color: black;
   color: #FFE4E1;
