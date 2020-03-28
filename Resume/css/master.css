@@ -19,21 +19,21 @@ body{
 .grid-container{
   display: grid;
   grid-template-columns:
-  repeat(8, minmax(0,1fr));
+  repeat(12, minmax(0,1fr));
   /*repeat(auto-fill, minmax(200px, 1fr));*/
   grid-template-rows:
   repeat(8, minmax(0,1fr));
   justify-content: space-around;
   align-items: stretch;
   grid-template-areas:
-  ". . header header header header . ."
-  "leftside leftside header2 header2 header2 header2 header2 header2"
-  "leftside leftside main main main main main main"
-  "leftside2 leftside2 main main main main main ."
-  "leftside2 leftside2 main2 main2 main2 main2 rightside rightside"
-  "leftside3 leftside3 main3 main3 main3 main3 rightside rightside"
-  ". footer footer footer footer footer footer ."
-  ". footer2 footer2 footer2 footer2 footer2 footer2 .";
+  ". . header header header header header header header header . ."
+  ". leftside leftside leftside header2 header2 header2 header2 header2 header2 header2 header2 "
+  "leftside leftside leftside main main main main main main main main main"
+  "leftside2 leftside2 leftside2 main main main main main main main main "
+  "leftside2 leftside2 leftside2 main2 main2 main2 main2 main2 main2 rightside rightside rightside"
+  "leftside3 leftside3 leftside3 main3 main3 main3 main3 main3 main3 rightside rightside rightside"
+  ". footer footer footer footer footer footer footer footer footer footer ."
+  ". footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 .";
   grid-column-gap: 10px;
   grid-row-gap: 15px;
 }
