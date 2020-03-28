@@ -24,6 +24,7 @@ body{
   grid-template-rows:
   repeat(8, minmax(0,1fr));
   justify-content: space-around;
+  align-items: stretch;
   grid-template-areas:
   ". . header header header header . ."
   "leftside leftside header2 header2 header2 header2 header2 header2"
