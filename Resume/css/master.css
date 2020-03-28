@@ -39,9 +39,9 @@ body{
 }
 h1{
   grid-column-start: 3;
-  grid-column-end: 7;
+  grid-column-end: 9;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 1;
   font-size: 50px;
 /*padding: 20px;*/
 text-align: center;
@@ -51,9 +51,9 @@ font-family: 'Roboto Condensed', sans-serif;
 }
 h2{
   grid-column-start: 3;
-    grid-column-end: 7;
+    grid-column-end: 9;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 2;
     font-size: 35px;
   /*padding: 20px;*/
   text-align: center;
@@ -63,9 +63,9 @@ h2{
 }
 .contact{
   grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 5;
     grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-end: 3;
     border: 2px solid powderblue;
 padding: 1px;
   font-size: 12px;
@@ -80,7 +80,7 @@ padding: 1px;
 }
 .headshot{
   grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 6;
     display: block;
@@ -107,7 +107,7 @@ font-size:200%;
 }
 h4{
   grid-column-start: 6;
-    grid-column-end: 8;
+    grid-column-end: 10;
     grid-row-start: 3;
     grid-row-end: 5;
     text-align: center;
@@ -117,7 +117,7 @@ h4{
   }
 .list{
   grid-column-start: 6;
-    grid-column-end: 8;
+    grid-column-end: 10;
     grid-row-start: 3;
     grid-row-end: 5;
     text-align: left;
@@ -135,7 +135,7 @@ margin-top: 100px;
 }
 .drumset{
   grid-column-start: 7;
-    grid-column-end: 9;
+    grid-column-end: 11;
     grid-row-start: 5;
     grid-row-end: 7;
     display: block;
@@ -146,9 +146,9 @@ width: 100%;
 }
 .table{
   grid-column-start: 1;
-    grid-column-end: 7;
+    grid-column-end: 8;
     grid-row-start: 7;
-    grid-row-end: 8;
+    grid-row-end: 7;
     border: 1px solid white;
   /*border-collapse: collapse;*/
   text-align: center;
@@ -162,7 +162,7 @@ width: 100%;
   grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-end: 6;
     border: 1px solid white;
   border-collapse: collapse;
   padding: 2px;
@@ -172,7 +172,7 @@ width: 100%;
   grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-end: 6;
     border: 1px solid white;
   border-collapse: collapse;
   padding: 2px;
@@ -185,15 +185,12 @@ width: 100%;
 a:link {
 text-decoration: none;
 }
-
 a:visited {
 text-decoration: none;
 }
-
 a:hover {
 text-decoration: underline;
 }
-
 a:active {
 text-decoration: underline;
 }
