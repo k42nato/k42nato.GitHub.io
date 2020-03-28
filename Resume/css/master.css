@@ -115,11 +115,11 @@ h4{
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
   }
-.list{
+.workexperience{
   grid-column-start: 7;
-    grid-column-end: 11;
+    grid-column-end: 12;
     grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-end: 4;
     text-align: left;
 border: 2px solid powderblue;
 padding: 1px;
