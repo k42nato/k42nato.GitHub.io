@@ -23,7 +23,7 @@ body{
   /*repeat(auto-fill, minmax(200px, 1fr));*/
   grid-template-rows:
   repeat(8, minmax(0,1fr));
-  justify-content: center;
+  justify-content: space-around;
   grid-template-areas:
   ". . header header header header . ."
   "leftside leftside header2 header2 header2 header2 header2 header2"
@@ -67,7 +67,7 @@ h2{
     grid-row-end: 4;
     border: 2px solid powderblue;
 padding: 1px;
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   background-color: black;
   color: #FFE4E1;
