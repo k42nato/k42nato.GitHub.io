@@ -30,7 +30,9 @@ body{
   "leftside leftside main main main main main main"
   "leftside2 leftside2 main main main main main ."
   "leftside2 leftside2 main2 main2 main2 main2 rightside rightside"
-  ". footer footer footer footer footer footer .";
+  "leftside3 leftside3 main3 main3 main3 main3 rightside rightside"
+  ". footer footer footer footer footer footer ."
+  ". footer2 footer2 footer2 footer2 footer2 footer2 .";
   grid-column-gap: 10px;
   grid-row-gap: 15px;
 }
