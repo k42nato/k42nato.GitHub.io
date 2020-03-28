@@ -35,31 +35,35 @@ body{
   grid-row-gap: 15px;
 }
 h1{
-font-size: 50px;
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: 50px;
 /*padding: 20px;*/
 text-align: center;
 background-color: black;
 color: #FFE4E1;
 font-family: 'Roboto Condensed', sans-serif;
-grid-column-start: 3;
-grid-column-end: 7;
-grid-row-start: 1;
-grid-row-end: 2;
 }
 h2{
-  font-size: 35px;
+  grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 35px;
   /*padding: 20px;*/
   text-align: center;
   background-color: black;
   color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
-grid-column-start: 3;
-  grid-column-end: 7;
-  grid-row-start: 2;
-  grid-row-end: 3;
 }
 .contact{
-border: 2px solid powderblue;
+  grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: 2px solid powderblue;
 padding: 1px;
   font-size: 15px;
   text-align: center;
@@ -70,50 +74,50 @@ padding: 1px;
   box-sizing: border-box;
     margin-right: 150px;
     margin-left: 100px;
-  grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
 }
 .headshot{
-  display: block;
-  margin-left: 30%;
-  margin-right: 30%;
-  width: 100%;
-  padding-top: 50px;
   grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 5;
+    display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 100%;
+  padding-top: 50px;
 }
 .bio{
-  text-align: center;
+  grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    text-align: center;
   background-color: black;
   color: #FFE4E1;
   font-family: 'Oswald', sans-serif;
   margin: 5% auto;
   width: 80%;
-  grid-column-start: 3;
-    grid-column-end: 7;
-    grid-row-start: 3;
-    grid-row-end: 5;
 }
 .bio:first-letter {
 color: blue;
 font-size:200%;
 }
 h4{
-  text-align: center;
-  background-color: black;
-  color: #FFE4E1;
-  font-family: 'Roboto Condensed', sans-serif;
   grid-column-start: 6;
     grid-column-end: 8;
     grid-row-start: 2;
     grid-row-end: 4;
-}
+    text-align: center;
+  background-color: black;
+  color: #FFE4E1;
+  font-family: 'Roboto Condensed', sans-serif;
+  }
 .list{
-text-align: left;
+  grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: left;
 border: 2px solid powderblue;
 padding: 1px;
 background-color: black;
@@ -125,57 +129,53 @@ margin-top: 100px;
   margin-right: 150px;
   margin-left: 100px;
   /*grid-area: "main3"*/
-  grid-column-start: 6;
-    grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 4;
 }
 .drumset{
-display: block;
+  grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    display: block;
 margin-left: 30%;
 margin-right: 30%;
 width: 100%;
 /*grid-area: "main3"*/
-grid-column-start: 7;
-  grid-column-end: 9;
-  grid-row-start: 4;
-  grid-row-end: 6;
 }
 .table{
-  border: 1px solid white;
+  grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    border: 1px solid white;
   border-collapse: collapse;text-align: center;
   padding: 2px;
   background-color: black;
   color: #FFE4E1;
   font-family: 'Oswald', sans-serif;
   /*grid-area: "footer"*/
-  grid-column-start: 1;
-    grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 6;
-}
+  }
 .sandbox{
-  border: 1px solid white;
-  border-collapse: collapse;
-  padding: 2px;
-  /*grid-area: "footer"*/
   grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 5;
     grid-row-end: 6;
-}
-.facebook{
-  border: 1px solid white;
+    border: 1px solid white;
   border-collapse: collapse;
   padding: 2px;
   /*grid-area: "footer"*/
+  }
+.facebook{
   grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 5;
     grid-row-end: 6;
-}
+    border: 1px solid white;
+  border-collapse: collapse;
+  padding: 2px;
+  /*grid-area: "footer"*/
+  }
 .table:hover {
-  background-color: yellow;
+  background-color: lightblue;
   color: black;
 }
 a:link {
