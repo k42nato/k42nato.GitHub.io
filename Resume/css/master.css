@@ -72,8 +72,8 @@ padding: 1px;
   font-family: 'Roboto Condensed', sans-serif;
   font-style: italic;
   box-sizing: border-box;
-    margin-right: 150px;
-    margin-left: 100px;
+    /*margin-right: 150px;
+    margin-left: 100px;*/
 }
 .headshot{
   grid-column-start: 1;
