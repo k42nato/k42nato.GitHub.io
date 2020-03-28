@@ -22,7 +22,7 @@ body{
   repeat(8, minmax(0,1fr));
   /*repeat(auto-fill, minmax(200px, 1fr));*/
   grid-template-rows:
-  repeat(6, minmax(0,1fr));
+  repeat(8, minmax(0,1fr));
   justify-content: center;
   grid-template-areas:
   ". . header header header header . ."
@@ -61,11 +61,11 @@ h2{
 .contact{
   grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
     border: 2px solid powderblue;
 padding: 1px;
-  font-size: 15px;
+  font-size: 10px;
   text-align: center;
   background-color: black;
   color: #FFE4E1;
@@ -78,8 +78,8 @@ padding: 1px;
 .headshot{
   grid-column-start: 1;
     grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
     display: block;
   margin-left: 30%;
   margin-right: 30%;
@@ -89,8 +89,8 @@ padding: 1px;
 .bio{
   grid-column-start: 3;
     grid-column-end: 7;
-    grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
     text-align: center;
   background-color: black;
   color: #FFE4E1;
@@ -105,8 +105,8 @@ font-size:200%;
 h4{
   grid-column-start: 6;
     grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
     text-align: center;
   background-color: black;
   color: #FFE4E1;
@@ -115,8 +115,8 @@ h4{
 .list{
   grid-column-start: 6;
     grid-column-end: 8;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
     text-align: left;
 border: 2px solid powderblue;
 padding: 1px;
@@ -133,8 +133,8 @@ margin-top: 100px;
 .drumset{
   grid-column-start: 7;
     grid-column-end: 9;
-    grid-row-start: 4;
-    grid-row-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 7;
     display: block;
 margin-left: 30%;
 margin-right: 30%;
@@ -144,8 +144,8 @@ width: 100%;
 .table{
   grid-column-start: 1;
     grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8;
     border: 1px solid white;
   border-collapse: collapse;text-align: center;
   padding: 2px;
@@ -157,8 +157,8 @@ width: 100%;
 .sandbox{
   grid-column-start: 2;
     grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
     border: 1px solid white;
   border-collapse: collapse;
   padding: 2px;
@@ -167,8 +167,8 @@ width: 100%;
 .facebook{
   grid-column-start: 4;
     grid-column-end: 6;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
     border: 1px solid white;
   border-collapse: collapse;
   padding: 2px;
