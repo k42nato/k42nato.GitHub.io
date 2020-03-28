@@ -1,3 +1,18 @@
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat (5, minmax(0,1fr));
+  /*grid-template-rows: auto auto auto auto auto auto;*/
+  justify-content: center;
+  grid-template-areas:
+  "header header header header header"
+  ". header2 header2 header2 ."
+  "main main . main main"
+  ". main2 main2 main2 ."
+  "main3 main3 . main3 main3"
+  ".footer footer footer.";
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+}
 body{
   background-color: black;
 }
@@ -15,21 +30,6 @@ body{
   body {
     background-color: lavender;
 }
-}
-.grid-container{
-  display: grid;
-  grid-template-columns: repeat (5, minmax(0,1fr));
-  /*grid-template-rows: auto auto auto auto auto auto;*/
-  justify-content: center;
-  grid-template-areas:
-  "header header header header header"
-  ". header2 header2 header2 ."
-  "main main . main main"
-  ". main2 main2 main2 ."
-  "main3 main3 . main3 main3"
-  ".footer footer footer.";
-  grid-column-gap: 10px;
-  grid-row-gap: 15px;
 }
 h1{
 font-size: 50px;
