@@ -262,7 +262,7 @@ text-decoration: underline;
 }
 .column {
   display:grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
 gap:20px;
 grid-column-start: 1;
     grid-column-end: 12;
