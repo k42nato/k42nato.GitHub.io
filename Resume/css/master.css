@@ -42,7 +42,7 @@ h1{
   grid-column-end: 12;
   grid-row-start: 1;
   grid-row-end: 2;
-  font-size: 50px;
+  font-size: 50em;
 /*padding: 20px;*/
 text-align: center;
 background-color: black;
@@ -54,7 +54,7 @@ h2{
     grid-column-end: 10;
     grid-row-start: 2;
     grid-row-end: 3;
-    font-size: 35px;
+    font-size: 35em;
   /*padding: 20px;*/
   text-align: center;
   background-color: black;
@@ -68,7 +68,7 @@ h2{
     grid-row-end: 4;
     border: 2px solid powderblue;
 padding: 1px;
-  font-size: 12px;
+  font-size: 12em;
   text-align: center;
   background-color: black;
   color: #FFE4E1;
@@ -103,6 +103,7 @@ padding: 1px;
   background-color: black;
   color: #FFE4E1;
   font-family: 'Oswald', sans-serif;
+  font-size: 15em;
   margin: 5% auto;
   width: 80%;
 }
@@ -132,7 +133,7 @@ padding: 1px;
 background-color: black;
 color: #FFE4E1;
 font-family: 'Oswald', sans-serif;
-font-size: 12px;
+font-size: 12em;
 margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 10px;
@@ -164,6 +165,7 @@ padding-top: 50px;
   background-color: black;
   color: #FFE4E1;
   font-family: 'Oswald', sans-serif;
+  font-size: 15em;
   margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 10px;
@@ -176,6 +178,7 @@ padding-top: 50px;
     grid-row-start: 7;
     grid-row-end: 8;
     text-align: center;
+    font-size: 12em;
     border: 1px solid white;
   border-collapse: collapse;
   padding: 2px;
@@ -189,6 +192,7 @@ padding-top: 50px;
     grid-row-start: 7;
     grid-row-end: 8;
     text-align: center;
+    font-size: 12em;
     border: 1px solid white;
   border-collapse: collapse;
   padding: 2px;
