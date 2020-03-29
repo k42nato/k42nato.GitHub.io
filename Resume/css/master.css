@@ -80,7 +80,7 @@ padding: 1px;
 }
 .headshot{
   grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 6;
     float: left;
@@ -122,7 +122,7 @@ h4{
     grid-row-start: 3;
     grid-row-end: 4;
     float: right;
-    text-align: center;
+    text-align: left;
 border: 2px solid powderblue;
 padding: 1px;
 background-color: black;
