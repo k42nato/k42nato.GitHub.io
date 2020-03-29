@@ -249,10 +249,6 @@ text-decoration: underline;
 a:active {
 text-decoration: underline;
 }
-.flex-container {
-  display: flex;
-  justify-content: center;
-}
 .row {
   grid-column-start: 1;
     grid-column-end: 12;
