@@ -75,10 +75,10 @@ padding: 1px;
   font-family: 'Roboto Condensed', sans-serif;
   font-style: italic;
   box-sizing: border-box;
-  margin-top: 200px;
-    margin-bottom: 200px;
-    margin-right: 200px;
-    margin-left: 200px;
+  margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 150px;
+    margin-left: 150px;
     /*margin-right: 150px;
     margin-left: 100px;*/
 }
@@ -95,7 +95,7 @@ padding: 1px;
   padding-top: 50px;
 }
 .bio{
-  grid-column-start: 5;
+  grid-column-start: 4;
     grid-column-end: 10;
     grid-row-start: 4;
     grid-row-end: 6;
