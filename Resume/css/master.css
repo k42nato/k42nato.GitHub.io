@@ -32,7 +32,11 @@ body{
   "leftside2 leftside2 leftside2 main2 main2 main2 main2 main2 main2 rightside rightside rightside"
   "leftside3 leftside3 leftside3 main3 main3 main3 main3 main3 main3 rightside rightside rightside"
   "footer footer footer footer footer footer footer footer footer footer footer footer"
-  "footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2";
+  "footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2"
+  "footer3 footer3 footer3 footer3 footer3 footer3 footer3 footer3 footer3 footer3 footer3 footer3"
+  "end end end end end end end end end end end end"
+  "end2 end2 end2 end2 end2 end2 end2 end2 end2 end2 end2 end2"
+  "end3 end3 end3 end3 end3 end3 end3 end3 end3 end3 end3 end3";
   grid-column-gap: 10px;
   grid-row-gap: 15px;
 }
