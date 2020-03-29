@@ -250,8 +250,8 @@ a:active {
 text-decoration: underline;
 }
 .row {
-  grid-column-start: 5;
-    grid-column-end: 7;
+  grid-column-start: 1;
+    grid-column-end: 12;
     grid-row-start: 9;
     grid-row-end: 12;
   display: flex;
@@ -261,8 +261,8 @@ text-decoration: underline;
 
 /* Create four equal columns that sits next to each other */
 .column {
-  grid-column-start: 5;
-    grid-column-end: 7;
+  grid-column-start: 1;
+    grid-column-end: 12;
     grid-row-start: 9;
     grid-row-end: 12;
   flex: 25%;
