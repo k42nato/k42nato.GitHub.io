@@ -15,6 +15,27 @@ body{
   body {
     background-color: black;
 }
+.grid-container{
+  display: grid;
+  grid-template-columns:
+  repeat(12, minmax(0,1fr));
+  /*repeat(auto-fill, minmax(200px, 1fr));*/
+  grid-template-rows: auto auto auto auto auto auto auto auto
+  /*repeat(8, minmax(0,1fr));*/
+  justify-content: space-around;
+  align-items: stretch;
+  grid-template-areas:
+  "header header header header header header header header header header header header"
+  "leftside leftside leftside leftside header2 header2 header2 header2 header2 header2 header2 header2 "
+  "leftside leftside leftside main main main main main main main main main"
+  "leftside2 leftside2 leftside2 main main main main main main main main "
+  "leftside2 leftside2 leftside2 main2 main2 main2 main2 main2 main2 rightside rightside rightside"
+  "leftside3 leftside3 leftside3 main3 main3 main3 main3 main3 main3 rightside rightside rightside"
+  "footer footer footer footer footer footer footer footer footer footer footer footer"
+  "footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2";
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -37,7 +58,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
   background-color: #111;
 }
@@ -45,35 +65,10 @@ li a:hover {
 .active {
   background-color: #4CAF50;
 }
-</style>
-</head>
-<body>
-
-<div class="header">
+/*<div class="header">
   <h2>Scroll Down</h2>
   <p>Scroll down to see the sticky effect.</p>
-</div>
-.grid-container{
-  display: grid;
-  grid-template-columns:
-  repeat(12, minmax(0,1fr));
-  /*repeat(auto-fill, minmax(200px, 1fr));*/
-  grid-template-rows: auto auto auto auto auto auto auto auto
-  /*repeat(8, minmax(0,1fr));*/
-  justify-content: space-around;
-  align-items: stretch;
-  grid-template-areas:
-  "header header header header header header header header header header header header"
-  "leftside leftside leftside leftside header2 header2 header2 header2 header2 header2 header2 header2 "
-  "leftside leftside leftside main main main main main main main main main"
-  "leftside2 leftside2 leftside2 main main main main main main main main "
-  "leftside2 leftside2 leftside2 main2 main2 main2 main2 main2 main2 rightside rightside rightside"
-  "leftside3 leftside3 leftside3 main3 main3 main3 main3 main3 main3 rightside rightside rightside"
-  "footer footer footer footer footer footer footer footer footer footer footer footer"
-  "footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2 footer2";
-  grid-column-gap: 10px;
-  grid-row-gap: 15px;
-}
+</div>*/
 h1{
   grid-column-start: 1;
   grid-column-end: 12;
