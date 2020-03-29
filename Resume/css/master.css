@@ -155,8 +155,8 @@ padding-top: 50px;
 .table{
   grid-column-start: 4;
     grid-column-end: 10;
-    grid-row-start: 7;
-    grid-row-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 7;
     border: 1px solid white;
   /*border-collapse: collapse;*/
   text-align: center;
@@ -173,8 +173,8 @@ padding-top: 50px;
 .sandbox{
   grid-column-start: 4;
     grid-column-end: 6;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
     text-align: center;
     border: 1px solid white;
   border-collapse: collapse;
@@ -186,8 +186,8 @@ padding-top: 50px;
 .facebook{
   grid-column-start: 7;
     grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
     text-align: center;
     border: 1px solid white;
   border-collapse: collapse;
