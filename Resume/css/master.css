@@ -50,7 +50,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #white;
+  background-color: white;
 }
 li {
   float: left;
@@ -63,7 +63,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #lightblue;
+  background-color: lightblue;
 }
 }
 /*<div class="header">
