@@ -1,20 +1,6 @@
 body{
   background-color: black;
 }
-
-  @media screen and (max-width: 992px) {
-    .column {
-      width: 50%;
-    }
-  }
-      @media screen and (min-width: 400px) {
-  body {
-    background-color: blue;
-  }
-}
-@media screen and (min-width: 800px) {
-  body {
-    background-color: black;
 }
 .grid-container{
   display: grid;
@@ -278,6 +264,23 @@ grid-column-start: 1;
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+body{
+  background-color: black;
+}
+@media screen and (min-width: 400px) {
+body {
+background-color: blue;
+}
+}
+@media screen and (min-width: 800px) {
+body {
+background-color: black;
+}
+@media screen and (max-width: 992px) {
+.column {
+width: 50%;
+}
 }
 @media screen and (max-width: 800px) {
   .column {
