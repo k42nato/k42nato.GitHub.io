@@ -111,7 +111,7 @@ padding: 1px;
     grid-column-end: 9;
     grid-row-start: 4;
     grid-row-end: 6;*/
-    grid-area: "main";
+    grid-area: "main2";
     text-align: center;
   background-color: black;
   color: #FFE4E1;
