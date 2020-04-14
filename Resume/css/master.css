@@ -30,7 +30,7 @@ ul {
   grid-row-end: 2;*/
   grid-area: "nav";
   list-style-type: none;
-  float: left;
+  float: center;
   margin: 0;
   padding: 0;
   overflow: hidden;
