@@ -163,7 +163,7 @@ margin-top: 100px;
     grid-column-end: 12;
     grid-row-start: 5;
     grid-row-end: 8;*/
-    grid-area: "rightside";
+    grid-area: "main";
     display: block;
     float: center;
 margin-left: 20%;
