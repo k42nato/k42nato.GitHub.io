@@ -1,7 +1,6 @@
 body{
   background-color: black;
 }
-}
 .grid-container{
   display: grid;
   grid-template-columns:
@@ -40,11 +39,6 @@ li a {
 li a:hover {
   background-color: lightblue;
 }
-}
-/*<div class="header">
-  <h2>Scroll Down</h2>
-  <p>Scroll down to see the sticky effect.</p>
-</div>*/
 h1{
   grid-column-start: 2;
   grid-column-end: 11;
@@ -268,44 +262,3 @@ background-color: black;
 body {
 background-color: grey;
 }
-
-/*.gallery {
-  border: 1px solid #lightblue;
-}
-
-.gallery:hover {
-  border: 1px solid #white;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-*/
