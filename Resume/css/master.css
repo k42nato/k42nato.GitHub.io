@@ -4,9 +4,9 @@ body{
 .grid-container{
   display: grid;
   grid-template-areas:
-  "nav nav nav header header header header header header header header header"
+  "header header header header header header header header header header header header"
   "header1 header1 header1 header1 header1 header1 header1 header1 header1 header1 header1 header1"
-  "leftside leftside leftside leftside main main main main rightside rightside rightside rightside"
+  "nav nav nav nav nav main main main rightside rightside rightside rightside"
   "leftside leftside leftside leftside main main main main rightside rightside rightside rightside"
   "leftside leftside leftside leftside main main main main rightside rightside rightside rightside"
   "main2 main2 main2 main2 main2 main2 main2 main2 main2 main2 main2 main2"
