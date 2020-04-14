@@ -106,7 +106,7 @@ padding: 1px;
   width: 80%;
   padding-top: 50px;
 }
-.bio{
+#bio{
   /*grid-column-start: 4;
     grid-column-end: 9;
     grid-row-start: 4;
@@ -114,7 +114,7 @@ padding: 1px;
     grid-area: "main2";
     text-align: center;
   background-color: black;
-  color: #FFE4E1;
+  text-decoration-color: #FFE4E1;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 15px;
   margin: 5% auto;
@@ -246,7 +246,7 @@ text-decoration: underline;
   flex-wrap: wrap;
   padding: 0 4px;
 }
-.column {
+#column {
   display:grid;
 grid-template-columns: 1fr 1fr;
 gap:20px;
