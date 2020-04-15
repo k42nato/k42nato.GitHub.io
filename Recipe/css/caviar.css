@@ -41,7 +41,7 @@ h2{
   display: none;
 }
 button{
-  background: #eee79c;
+  background: #lightblue;
   padding: 1rem;
   font-size: 2rem;
   color: black;
@@ -54,7 +54,7 @@ button{
   font-size:2rem;
   width:75%;
 }
-.dressing .caviar img{
+.ingredients1 .ingredients2 img{
   position:absolute;
   bottom:9rem;
   width:60%;
