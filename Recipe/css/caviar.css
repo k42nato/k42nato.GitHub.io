@@ -17,10 +17,14 @@ main{
   padding: 0 2rem;
 }
 header{
-
+  color:black;
+  font-size:5rem;
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
+  margin-top: 0;
 }
 h1{
-  color:;
+  color:black;
   font-size:3rem;
   letter-spacing: 0.2rem;
   line-height: 4rem;
