@@ -54,16 +54,10 @@ button{
   font-size:2rem;
   width:75%;
 }
-.ingredients img{
+.dressing .caviar img{
   position:absolute;
   bottom:9rem;
   width:60%;
-}
-.ingredients p{
-  background-color: lightblue;
-  color: black;
-  display:table;
-  padding:0 .5rem;
 }
 .chop{
   font-size:2rem;
