@@ -234,18 +234,17 @@ text-decoration: underline;
 a:active {
 text-decoration: underline;
 }
-.row {
+/*.row {
   /*grid-column-start: 1;
     grid-column-end: 12;
     grid-row-start: 9;
     grid-row-end: 12;*/
-    grid-area: "footer1";
+    /*grid-area: "footer1";
   display: flex;
   justify-content: center;
   border: 2px solid lightblue;
   flex-wrap: wrap;
-  padding: 0 4px;
-}
+  padding: 0 4px;*/
 #column {
   display: grid;
 grid-template-columns: 1fr 1fr;
