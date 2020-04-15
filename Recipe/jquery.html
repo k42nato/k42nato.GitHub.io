@@ -19,7 +19,7 @@
             <p>In 20 minutes, you can make a simple, healthy appetizer that's sure to be a hit!</p>
             <button class="step1" type="button" name="start">Start</button>
           </section>
-          <section class="dressing hide">
+          <section class="ingredients1 hide">
               <img src="images/cartoon.jpeg" alt="vegetables">
               <h3>Ingredients for Dressing</h3>
             <ul>
@@ -29,9 +29,9 @@
               <li>1 teaspoon of chili powder</li>
               <li>1 teaspoon of salt</li>
             </ul>
-            <button class="step2" type="button" name="next"></button>
+            <button class="step2" type="button" name="next">Next</button>
             </section>
-            <section class="caviar hide">
+            <section class="ingredients2 hide">
               <h3>Ingredients for Caviar</h3>
             <ul>
               <li>1pound Roma tomatoes, seeded and diced</li>
@@ -44,24 +44,24 @@
               <li>2 ripe avocados, diced</li>
               <li>1 cup of chopped cilantro</li>
             </ul>
-            <button class="step3" type="button" name="next"></button>
+            <button class="step3" type="button" name="next">Next</button>
           </section>
           <section class="chop hide">
             <h3>Chop!</h3>
             <p>Chop all vegetables (be sure to rinse them off!)</p>
-            <button class="step4" type="button" name="next"></button>
+            <button class="step4" type="button" name="next">Next</button>
           </section>
           <section class="dressing hide">
             <h3>Whisk!</h3>
             <p>In a large bowl, whisk together the olive oil, stevia, white wine vinegar, chili powder, and salt</p>
-            <button class="step5" type="button" name="next"></button>
+            <button class="step5" type="button" name="next">Next</button>
           </section>
           <section class="mix hide">
             <h3>Mix Everything!</h3>
             <p>Add tomatoes, avocado, black-eyed peas, beans, corn, onion, and bell peppers</p>
             <p>Stir to combine</p>
             <p>Stir in cilantro. Cover and chill until served</p>
-            <button class="step6" type="button" name="next"></button>
+            <button class="step6" type="button" name="next">Next</button>
           </section>
           <section class="serve hide">
             <h3>Serve and enjoy!</h3>
@@ -76,18 +76,18 @@
             //Step One
             $(".step1").click(function(){
               $(".intro").hide(1000);
-              $(".dressing").show(1000);
+              $(".ingredients1").show(1000);
             });
             //Step two
             $(".step2").click(function(){
-              $("dressing").slideUp();
-              $(".caviar").slideDown();
+              $(".ingredients1").slideUp();
+              $(".ingredients2").slideDown();
               $(dressing )
         });
             //Step three
             $(".step3").click(function(){
-              $(."dressing").remove();
-              $(."caviar").slideUp();
+              $(."ingredients2").remove();
+              $(."chop").slideUp();
             });
         </script>
     </body>
