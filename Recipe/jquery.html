@@ -19,10 +19,9 @@
             <p>In 20 minutes, you can make a simple, healthy appetizer that's sure to be a hit!</p>
             <button class="step1" type="button" name="start">Start</button>
           </section>
-          <section class="ingredients hide">
-            <h3>Ingredients</h3>
+          <section class="dressing hide">
               <img src="images/cartoon.jpeg" alt="vegetables">
-            <p>For Dressing:</p>
+              <h3>Ingredients for Dressing</h3>
             <ul>
               <li>1/2 cup of olive oil</li>
               <li>1/8 cup of stevia, or to taste</li>
@@ -30,7 +29,11 @@
               <li>1 teaspoon of chili powder</li>
               <li>1 teaspoon of salt</li>
             </ul>
-            <p>For Caviar:</p>
+            <button class="step2" type="button" name="next">Start</button>
+            </section>
+            <section class="caviar hide">
+              <img src="images/cartoon.jpeg" alt="vegetables">
+              <h3>Ingredients for Caviar</h3>
             <ul>
               <li>1pound Roma tomatoes, seeded and diced</li>
               <li>1 (15 ounce) can of black-eyed peas, drained and rinsed</li>
@@ -42,24 +45,24 @@
               <li>2 ripe avocados, diced</li>
               <li>1 cup of chopped cilantro</li>
             </ul>
-            <button class="step2" type="button" name="next"></button>
+            <button class="step3" type="button" name="next"></button>
           </section>
           <section class="chop hide">
             <h3>Chop!</h3>
             <p>Chop all vegetables (be sure to rinse them off!)</p>
-            <button class="step3" type="button" name="next"></button>
+            <button class="step4" type="button" name="next"></button>
           </section>
           <section class="dressing hide">
             <h3>Whisk!</h3>
             <p>In a large bowl, whisk together the olive oil, stevia, white wine vinegar, chili powder, and salt</p>
-            <button class="step4" type="button" name="next"></button>
+            <button class="step5" type="button" name="next"></button>
           </section>
           <section class="mix hide">
             <h3>Mix Everything!</h3>
             <p>Add tomatoes, avocado, black-eyed peas, beans, corn, onion, and bell peppers</p>
             <p>Stir to combine</p>
             <p>Stir in cilantro. Cover and chill until served</p>
-            <button class="step5" type="button" name="next"></button>
+            <button class="step6" type="button" name="next"></button>
           </section>
           <section class="serve hide">
             <h3>Serve and enjoy!</h3>
@@ -79,7 +82,7 @@
             //Step two
             $(".step2").click(function(){
               $("ingredients").slideUp();
-              $("mix").slideDown();
+              $(".mix").slideDown();
         });
         </script>
     </body>
