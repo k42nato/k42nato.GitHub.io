@@ -6,7 +6,7 @@ body{
   font-size:1.3rem;
 }
 main{
-  background:"images/cuttingboard.jpg" no-repeat top center fixed;
+  background:"cuttingboard.jpg" no-repeat top center fixed;
   background-size: cover;
   min-height: 100%;
   width:100%;
