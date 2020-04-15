@@ -245,7 +245,7 @@ text-decoration: underline;
   border: 2px solid lightblue;
   flex-wrap: wrap;
   padding: 0 4px;*/
-#column {
+#pictures {
   display: grid;
 grid-template-columns: 1fr 1fr;
 gap:20px;
