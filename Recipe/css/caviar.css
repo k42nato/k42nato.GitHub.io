@@ -1,0 +1,78 @@
+body{
+  background-color: #eee79c;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 2rem;
+  color: black;
+  font-size:1.3rem;
+}
+main{
+  background: url("images/cuttingboard.jpg") no-repeat top center fixed;
+  background-size: cover;
+  min-height: 100%;
+  width:100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 2rem;
+}
+header{
+
+}
+h1{
+  color:;
+  font-size:3rem;
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
+  margin-top: 0;
+}
+.hide{
+  display: none;
+}
+button{
+  background: #eee79c;
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+.servings{
+  display:inline-block;
+  margin-top:3rem;
+}
+.intro{
+  font-size:2rem;
+  width:75%;
+}
+.ingredients img{
+  position:absolute;
+  bottom:9rem;
+  width:60%;
+  display: none;
+}
+.ingredients p{
+  background: darkgreen;
+  display:table;
+  padding:0 .5rem;
+}
+.chop{
+  font-size:2rem;
+  width:75%;
+}
+.dressing{
+  font-size:2rem;
+  width:75%;
+}
+.mix{
+  font-size:2rem;
+  width:75%;
+}
+.serve{
+  font-size:2rem;
+  width:75%;
+}
+.serve img{
+  position:absolute;
+  bottom:9rem;
+  width:60%;
+  display: none;
+}
