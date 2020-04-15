@@ -32,7 +32,6 @@
             <button class="step2" type="button" name="next">Start</button>
             </section>
             <section class="caviar hide">
-              <img src="images/cartoon.jpeg" alt="vegetables">
               <h3>Ingredients for Caviar</h3>
             <ul>
               <li>1pound Roma tomatoes, seeded and diced</li>
@@ -83,7 +82,13 @@
             $(".step2").click(function(){
               $("dressing").slideUp();
               $(".caviar").slideDown();
+              $(dressing )
         });
+            //Step three
+            $(".step3").click(function(){
+              $(."dressing").remove();
+              $(."caviar").slideUp();
+            });
         </script>
     </body>
   </html>
