@@ -247,7 +247,7 @@ text-decoration: underline;
   padding: 0 4px;
 }
 #column {
-  display:grid;
+  display: grid;
 grid-template-columns: 1fr 1fr;
 gap:20px;
 /*grid-column-start: 1;
