@@ -68,6 +68,15 @@
           </section>
 
         </main>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/)query.man.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript">
+          $(document).ready(function(){
+            //Step One
+            $(".step1").click(function(){
+              $(".intro").hide(1000);
+              $(".ingredient").show(1000);
+            });
+        });
+        </script>
     </body>
   </html>
