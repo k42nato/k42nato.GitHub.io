@@ -273,9 +273,9 @@ background-color: yellow;
 }
 @media screen and (min-width: 800px) {
 body {
-background-color: black;
+background-color: grey;
 }
 @media screen and (min-width: 1200px) {
 body {
-background-color: grey;
+background-color: black;
 }
