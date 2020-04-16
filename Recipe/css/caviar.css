@@ -49,6 +49,10 @@ button{
   display:inline-block;
   margin-top:3rem;
 }
+.cowboypic{
+  height: 40%;
+  width: 50%;
+}
 .intro{
   font-size:2rem;
   width:75%;
