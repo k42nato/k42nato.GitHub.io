@@ -5,7 +5,7 @@ body{
   font-size:1.3rem;
 }
 main{
-  background: url("cutting board.jpg") no-repeat center fixed;
+  background: url("cuttingboard.jpg") no-repeat center fixed;
   background-size: cover;
   min-height: 100%;
   width:100%;
