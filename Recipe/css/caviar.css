@@ -52,6 +52,7 @@ button{
 .cowboypic{
   height: 40%;
   width: 50%;
+  position:fixed;
 }
 .intro{
   font-size:2rem;
