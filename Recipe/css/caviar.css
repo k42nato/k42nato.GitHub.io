@@ -1,5 +1,8 @@
+html{
+  background: url("old-cutting-board-table.zip") no-repeat center fixed;
+  background-size: cover;
+}
 body{
-  background-color: #eee79c;
   font-family: 'Quicksand', sans-serif;
   line-height: 2rem;
   color: black;
@@ -14,9 +17,6 @@ main{
   top: 0;
   left: 0;
   padding: 0 2rem;
-}
-.background{
-  background-size: cover;
 }
 header{
   color:black;
