@@ -67,6 +67,10 @@ button{
   font-size:2rem;
   width:75%;
 }
+.veggie{
+  height: auto;
+  width: auto;
+}
 .dressing{
   font-size:2rem;
   width:75%;
@@ -74,6 +78,10 @@ button{
 .mix{
   font-size:2rem;
   width:75%;
+}
+.mixingbowl{
+  height: auto;
+  width: auto;
 }
 .serve{
   font-size:2rem;
