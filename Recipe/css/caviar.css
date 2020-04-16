@@ -6,8 +6,7 @@ body{
   font-size:1.3rem;
 }
 main{
-  background: url("../images/old-cutting-board-table.zip") no-repeat top center fixed;
-  background-size: cover;
+
   min-height: 100%;
   width:100%;
   height: auto;
@@ -15,6 +14,9 @@ main{
   top: 0;
   left: 0;
   padding: 0 2rem;
+}
+.background{
+  background-size: cover;
 }
 header{
   color:black;
