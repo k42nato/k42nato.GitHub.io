@@ -13,7 +13,7 @@ body{
   "main2 main2 main2 main2 main2 main2 main2 main2 main2 main2 main2 main2"
   "footer footer footer footer footer footer footer footer footer footer footer footer"
   "footer1 footer1 footer1 footer1 footer1 footer1 footer1 footer1 footer1 footer1 footer1 footer1";
-  *grid-template-columns:repeat(12, minmax(0,1fr));
+  grid-template-columns:repeat(12, minmax(0,1fr));
   grid-template-rows: auto auto auto auto auto auto auto auto auto;
   /*repeat(8, minmax(0,1fr));*/
   justify-content: space-around;
