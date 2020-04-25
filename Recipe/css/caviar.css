@@ -2,7 +2,7 @@ body{
   font-family: 'Quicksand' sans-serif;
   line-height: 2rem;
   color: black;
-  font-size:1.3rem;
+  font-size:40px;
 }
 main{
   background: url("..images/cuttingboard.jpg") no-repeat center fixed;
@@ -14,7 +14,7 @@ main{
 }
 header{
   color:black;
-  font-size:3rem;
+  font-size:50;
   letter-spacing: 0.2rem;
   line-height: 4rem;
   margin-top: 0;
@@ -35,15 +35,15 @@ h1 h2{
 button{
   background: lightblue;
   padding: 1rem;
-  font-size: 2rem;
+  font-size: 20px;
   color: black;
 }
 .servings{
   display:inline-block;
-  margin-top:3rem;
+  margin-top:30px;
 }
-.intro{
-  font-size:2rem;
+.intro .chop .dressing .mix .serve{
+  font-size:30px;
   width:75%;
 }
 .ingredients1 img{
@@ -51,29 +51,13 @@ button{
   bottom:9rem;
   width:60%;
 }
-.chop{
-  font-size:2rem;
-  width:75%;
-}
 .veggie img{
   height: auto;
   width: auto;
 }
-.dressing{
-  font-size:2rem;
-  width:75%;
-}
-.mix{
-  font-size:2rem;
-  width:75%;
-}
 .mixingbowl img{
   height: auto;
   width: auto;
-}
-.serve{
-  font-size:2rem;
-  width:75%;
 }
 .serve img{
   position:absolute;
