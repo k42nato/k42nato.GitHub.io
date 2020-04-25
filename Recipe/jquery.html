@@ -11,7 +11,7 @@
           <header>
             <h1>Quick Cowboy Caviar!</h1>
             <h2>Vegan, Gluten Free, and Delicious!</h2>
-            <img src="cuttingboard.jpg" alt=cuttingboard>
+
           </header>
           <div class="servings">Serves 12</div>
           <section class=intro>
@@ -101,8 +101,12 @@
             $(".step5").click(function(){
               $(".mix").slideUp("slow");
               $(".serve").show(1000);
-              $(".serve").prepend('<p class="final">Enjoy!</p>');
             });
+            //Step six
+            $(".step5").click(function(){
+              $(".mix").slideUp("slow");
+              $(".serve").show(1000);
+              $(".serve").prepend('<p class="final">Enjoy!</p>');
             });
         </script>
     </body>
