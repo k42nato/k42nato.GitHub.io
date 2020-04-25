@@ -1,11 +1,11 @@
 body{
+  background: url("..images/cuttingboard.jpg") no-repeat center fixed;
   font-family: 'Quicksand' sans-serif;
   line-height: 2rem;
   color: black;
   font-size:40px;
 }
 main{
-  background: url("..images/cuttingboard.jpg") no-repeat center fixed;
   background-size: cover;
   position: fixed;
   top: 0;
