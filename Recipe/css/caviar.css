@@ -8,7 +8,6 @@ main{
   background: url("..images/cuttingboard.jpg") no-repeat center fixed;
   background-size: cover;
   position: fixed;
-  overflow:scroll;
   top: 0;
   left: 0;
 }
