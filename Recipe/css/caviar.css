@@ -33,7 +33,7 @@ h1 h2{
   display: none;
 }
 button{
-  position: fixed;
+  position: static;
   background: lightblue;
   padding: 1rem;
   font-size: 15px;
