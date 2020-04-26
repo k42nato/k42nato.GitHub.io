@@ -41,10 +41,12 @@ button{
   color: black;
 }
 .servings{
+  overflow:scroll;
   display:inline-block;
   margin-top:30px;
 }
 .intro .chop .dressing .mix .serve{
+  overflow:scroll;
   font-size:10px;
   width:75%;
 }
