@@ -28,7 +28,7 @@ h1 h2{
   margin-top: 0;
 }
 .cowboypic img{
-  position:fixed;
+  position:absolute;
 }
 .hide{
   display: none;
