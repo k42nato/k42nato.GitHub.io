@@ -34,6 +34,7 @@ h1 h2{
   display: none;
 }
 button{
+  position: fixed;
   background: lightblue;
   padding: 1rem;
   font-size: 15px;
