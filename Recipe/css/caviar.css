@@ -28,7 +28,7 @@ h1 h2{
   margin-top: 0;
 }
 .cowboypic img{
-  position:absolute;
+  position:static;
 }
 .hide{
   display: none;
@@ -47,16 +47,8 @@ button{
   font-size:10px;
   width:75%;
 }
-.ingredients1 img{
-  position:absolute;
-  bottom:9rem;
-  width:60%;
-}
-.veggie img{
-  height: auto;
-  width: auto;
-}
-.mixingbowl img{
+.veggie .mixingbowl .ingredients1 img{
+  position:static;
   height: auto;
   width: auto;
 }
