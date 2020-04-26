@@ -2,7 +2,6 @@ body{
   font-family: 'Quicksand';
   line-height: 2rem;
   color: black;
-  overflow:scroll;
 }
 main{
   background: url("..images/cuttingboard.jpg") no-repeat center fixed;
@@ -10,6 +9,7 @@ main{
   position: fixed;
   top: 0;
   left: 0;
+  overflow:scroll;
 }
 header{
   color:black;
