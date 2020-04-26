@@ -2,7 +2,7 @@ body{
   font-family: 'Quicksand' sans-serif;
   line-height: 2rem;
   color: black;
-  font-size:40px;
+  font-size:36px;
 }
 main{
   background: url("..images/cuttingboard.jpg") no-repeat center fixed;
@@ -15,14 +15,14 @@ main{
 }
 header{
   color:black;
-  font-size:35px;
+  font-size:25px;
   letter-spacing: 0.2rem;
   line-height: 4rem;
   margin-top: 0;
 }
 h1 h2{
   color:black;
-  font-size:30px;
+  font-size:20px;
   letter-spacing: 1rem;
   line-height: 4rem;
   margin-top: 0;
@@ -44,7 +44,7 @@ button{
   margin-top:30px;
 }
 .intro .chop .dressing .mix .serve{
-  font-size:20px;
+  font-size:10px;
   width:75%;
 }
 .ingredients1 img{
