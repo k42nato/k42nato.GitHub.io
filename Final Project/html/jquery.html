@@ -6,6 +6,28 @@
     <link rel="stylesheet" type=text/css href="slick/slick-theme.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto Condensed" rel="stylesheet">
     <style>
+
+    body{
+      background:#000;
+      font-family: "Roboto Condensed"; font-size: 22px;
+      line-height: 1.4em;
+    }
+    main{
+      width:70%;
+      margin:5% auto;
+    }
+    .slider-container{
+      /* width: 64%; */
+      margin: 0 auto;
+    }
+    .slider-nav .slick-track{
+      margin-top: 30px;
+    }
+    .slider-nav .slick-track img{
+      width:200px !important;
+      margin-right: 15px;
+    }
+  </style>
       <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164023046-1"></script>
 <script>
@@ -15,20 +37,11 @@
 
   gtag('config', 'UA-164023046-1');
 </script>
-body {
-    font-family: "Roboto Condensed"; font-size: 22px;
-    line-height: 1.4em;
-    background-color: black;
-    }
-main {
-  width: 50%;
-  margin: auto 5%;
-}
-</style>
     <meta charset="utf-8">
     <title>MILKQUARTET</title>
   </head>
   <body>
+    <div class="slider">
     <div class="grid-container">
         <div class="header">
           <div class="header1">
@@ -89,5 +102,42 @@ main {
     <h5><strong>© 2020 milk</strong></h5>
   </footer>
 </div>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    //Step One
+    $(".step1").click(function(){
+      $(".intro").hide(1000);
+      $(".ingredients1").show(1000);
+    });
+    //Step two
+    $(".step2").click(function(){
+      $(".ingredients1").slideUp();
+      $(".ingredients2").slideDown();
+    });
+    //Step three
+    $(".step3").click(function(){
+      $(".ingredients2").remove();
+      $(".chop").slideDown();
+    });
+    //Step four
+    $(".step4").click(function(){
+      $(".chop").slideUp("slow");
+      $(".mix").show(1000);
+    });
+    //Step five
+    $(".step5").click(function(){
+      $(".mix").slideUp("slow");
+      $(".serve").show(1000);
+    });
+    //Step six
+    $(".step5").click(function(){
+      $(".mix").slideUp("slow");
+      $(".serve").show(1000);
+      $(".serve").prepend('<p class="final">Enjoy!</p>');
+    });
+    });
+    </script>
 </body>
 </html>
