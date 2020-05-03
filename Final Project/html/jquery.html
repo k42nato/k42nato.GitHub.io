@@ -65,13 +65,14 @@
                     <div class="footer">
                       </div>
 
-  <div class="navbar">
-    <ul>
-<li><a href="#home">Home</a></li>
-  <li><a href="#about" target="_blank">About</a></li>
-  <li><a href="#events" target="_blank">Events</a></li>
-  <li><a href="#contact" target="_blank">Contact</a></li>
-</ul>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="#events">Events</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
 
   <header>
@@ -250,7 +251,15 @@ $(function() {
    // autoplaySpeed: 500,
    fade: true
   });
-
+  /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
 });
 
 // Resize event
