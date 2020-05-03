@@ -41,7 +41,17 @@
     <title>MILKQUARTET</title>
   </head>
   <body>
-    <div class="slider">
+    <div class="slider slider-for">
+      <div class="fragment">
+        <iframe class="embed-player slide-media" width="500" height="300" src="https://www.youtube.com/watch?v=IMGDyOQVK88&list=PLvdX6ZoFCFnw2iNtfnKo6aZNXy7J0u_O5">
+        </div>
+        <div class="pillar"
+        <iframe class="embed-player slide-media" width="500" height="300" src="https://www.youtube.com/watch?v=QEuQ7Hdqqlc&list=PLvdX6ZoFCFnw2iNtfnKo6aZNXy7J0u_O5&index=2">
+        </div>
+      <img src="images/feet.jpg" alt="shoes" style="width:100%">
+      <img src="images/smiling.jpg" alt="Smile!" style="width:100%">
+<div class="slider slider-nav"
+</div>
     <div class="grid-container">
         <div class="header">
           <div class="header1">
@@ -53,14 +63,13 @@
   <div class="navbar">
     <ul>
 <li><a href="#home">Home</a></li>
-  <li><a href="#bio" target="_blank">About</a></li>
-  <li><a href="https://www.youtube.com/watch?v=CRLignfZeec">Xenakis</a></li>
-  <li><a href="https://www.youtube.com/watch?v=_6e_97FYtm0">Bach</a></li>
-  <li><a href="#pictures" target="_blank">Photo Gallery</a></li>
+  <li><a href="#about" target="_blank">About</a></li>
+  <li><a href="#events" target="_blank">Events</a></li>
+  <li><a href="#contact" target="_blank">Contact</a></li>
 </ul>
 </div>
   <header>
-  <h1><strong>MILK QUARTET</strong></h1>
+  <h1><strong>milkquartet</strong></h1>
   <h2><strong>Katherine Fortunato. Maddy Dethloff. Lauren Molloy. Nupur Thakkar.</strong></h2>
   </header>
 <div class="contact">
@@ -69,7 +78,7 @@
   <br>(908)-642-3453
   <br>Miami, Florida
   </h3>
-  <a id="bio">
+  <a id="about">
   milkquartet is a percussion group that is focused on commissioning new works for percussion as well as educating younger generations of percussionists and working with communities through outreach. One of the only all-female percussion groups in the world, mmilk strives to bring representation to minorities in and beyond the music community. The group is currently working with Sandbox Percussion, Brooklyn-based percussion quartet, in a two-year long mentorship program.
   </a>
 <div class="workexperience">
@@ -94,48 +103,146 @@
       <td>Blair School of Music, Vanderbilt University</td>
     </tr>
 </table>
-
-  <a id="pictures"></a>
-    <img src="images/feet.jpg" alt="shoes" style="width:100%">
-    <img src="images/smiling.jpg" alt="Smile!" style="width:100%">
   <footer>
-    <h5><strong>© 2020 milk</strong></h5>
+    <h5><strong>© 2020 milkquartet</strong></h5>
   </footer>
 </div>
+<section> <a href="https://www.freepik.com/free-photos-vectors/label">Label vector created by freepik - www.freepik.com</a>
+</section>
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
-    //Step One
-    $(".step1").click(function(){
-      $(".intro").hide(1000);
-      $(".ingredients1").show(1000);
-    });
-    //Step two
-    $(".step2").click(function(){
-      $(".ingredients1").slideUp();
-      $(".ingredients2").slideDown();
-    });
-    //Step three
-    $(".step3").click(function(){
-      $(".ingredients2").remove();
-      $(".chop").slideDown();
-    });
-    //Step four
-    $(".step4").click(function(){
-      $(".chop").slideUp("slow");
-      $(".mix").show(1000);
-    });
-    //Step five
-    $(".step5").click(function(){
-      $(".mix").slideUp("slow");
-      $(".serve").show(1000);
-    });
-    //Step six
-    $(".step5").click(function(){
-      $(".mix").slideUp("slow");
-      $(".serve").show(1000);
-      $(".serve").prepend('<p class="final">Enjoy!</p>');
+      $('.slider').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+
+
+  var slideWrapper = $(".slider-for"),
+    iframes = slideWrapper.find('.embed-player'),
+    lazyImages = slideWrapper.find('.slide-image'),
+    lazyCounter = 0;
+
+// POST commands to YouTube or Vimeo API
+function postMessageToPlayer(player, command){
+  if (player == null || command == null) return;
+  player.contentWindow.postMessage(JSON.stringify(command), "*");
+}
+
+// When the slide is changing pause the previous one
+function playPauseVideo(slick, control){
+  var currentSlide, slideType, startTime, player, video;
+
+  currentSlide = slick.find(".slick-current");
+  slideType = currentSlide.attr("class").split(" ")[1];
+  player = currentSlide.find("iframe").get(0);
+  startTime = currentSlide.data("video-start");
+
+  if (slideType === "youtube") {
+    switch (control) {
+      case "play":
+        postMessageToPlayer(player, {
+          "event": "command",
+          "func": "unmute"
+        });
+        postMessageToPlayer(player, {
+          "event": "command",
+          "func": "pauseVideo"
+        });
+        break;
+      case "pause":
+        postMessageToPlayer(player, {
+          "event": "command",
+          "func": "pauseVideo"
+        });
+        break;
+    }
+  }
+}
+
+// Resize player
+function resizePlayer(iframes, ratio) {
+  if (!iframes[0]) return;
+  var win = $(".slider-for"),
+      width = win.width(),
+      playerWidth,
+      height = win.height(),
+      playerHeight,
+      ratio = ratio || 16/9;
+
+  iframes.each(function(){
+    var current = $(this);
+    if (width / ratio < height) {
+      playerWidth = Math.ceil(height * ratio);
+      current.width(playerWidth).height(height).css({
+        left: (width - playerWidth) / 2,
+         top: 0
+        });
+    } else {
+      playerHeight = Math.ceil(width / ratio);
+      current.width(width).height(playerHeight).css({
+        left: 0,
+        top: (height - playerHeight) / 2
+      });
+    }
+  });
+}
+
+// DOM Ready
+$(function() {
+  // Initialize
+  slideWrapper.on("init", function(slick){
+    slick = $(slick.currentTarget);
+    setTimeout(function(){
+      playPauseVideo(slick,"play");
+    }, 1000);
+    resizePlayer(iframes, 16/9);
+  });
+  slideWrapper.on("beforeChange", function(event, slick) {
+    slick = $(slick.$slider);
+    playPauseVideo(slick,"pause");
+  });
+  slideWrapper.on("afterChange", function(event, slick) {
+    slick = $(slick.$slider);
+    playPauseVideo(slick,"play");
+  });
+
+  slideWrapper.slick({
+   slidesToShow: 3,
+   slidesToScroll: 1,
+   arrows: true,
+   // autoplay: true,
+   cssEase:"cubic-bezier(0.87, 0.03, 0.41, 0.9)",
+   // autoplaySpeed: 500,
+   fade: true
+  });
+
+});
+
+// Resize event
+$(window).on("resize.slickVideoPlayer", function(){
+  resizePlayer(iframes, 16/9);
     });
     });
     </script>
