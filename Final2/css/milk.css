@@ -136,6 +136,10 @@ color: #FFE4E1;
 font-family: 'Roboto Condensed', sans-serif;
 background-color: black;
 }
+.itemyoutube{
+  height: 315px;
+  width: 560px;
+}
 h4{
   /*grid-column-start: 7;
     grid-column-end: 11;
