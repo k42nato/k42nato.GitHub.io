@@ -120,7 +120,7 @@ padding: 1px;
     /*margin-right: 150px;
     margin-left: 100px;*/
 }
-.photo .itemyoutube{
+.itemyoutube{
   grid-area: "main";
   float: center;
   display: block;
@@ -128,6 +128,13 @@ padding: 1px;
   width: 560px;
   padding-top: 50px;
 }
+.photo{
+  grid-area: "main";
+  float: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
 #about{
   grid-area: "main2";
   text-align: center;
@@ -187,22 +194,6 @@ margin-top: 100px;
     margin-left: 10px;
   /*grid-area: "footer"*/
   }
-.table:hover {
-  background-color: lightblue;
-  color: black;
-}
-a:link {
-text-decoration: none;
-}
-a:visited {
-text-decoration: none;
-}
-a:hover {
-text-decoration: underline;
-}
-a:active {
-text-decoration: underline;
-}
 footer .freepik{
   color: lightblue;
   font-size: 15px;
