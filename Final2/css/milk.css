@@ -120,6 +120,14 @@ padding: 1px;
     /*margin-right: 150px;
     margin-left: 100px;*/
 }
+.photo{
+  grid-area: "main";
+  float: center;
+  display: block;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-top: 50px;
+}
 #bio{
   /*grid-column-start: 4;
     grid-column-end: 9;
