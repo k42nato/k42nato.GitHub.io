@@ -28,7 +28,7 @@
   "nav nav nav nav nav nav"
   "main main main main main main"
   "main2 main2 main2 main2 main2 main2"
-  "footer footer footer footer footer footer"
+  "footer footer footer footer footer footer";
   grid-template-columns:repeat(12, minmax(0,1fr));
   grid-template-rows: auto auto auto auto auto auto auto auto auto;
   /*repeat(8, minmax(0,1fr));*/
