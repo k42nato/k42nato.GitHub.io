@@ -147,6 +147,7 @@ font-family: 'Roboto Condensed', sans-serif;
 background-color: black;
 }
 .itemyoutube{
+  float: center;
   height: 315px;
   width: 560px;
 }
