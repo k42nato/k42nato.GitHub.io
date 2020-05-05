@@ -136,7 +136,7 @@ padding: 1px;
   margin-right: auto;
   padding-top: 50px;
 }
-#about{
+#about #events{
   grid-area: "main2";
   text-align: center;
 font-size: 15px;
